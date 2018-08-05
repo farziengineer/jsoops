@@ -14,3 +14,4 @@ var emp1 = new Emp();
 // prototype object of the Object() function.
 // Sounds very easy and convenient :p
 
+
