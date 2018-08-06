@@ -7,6 +7,7 @@ var outer = function(){
 	}
 	inner();
 	console.log(p);
+	console.log(this.p);
 
 };
 outer();

@@ -12,7 +12,7 @@ function employee(first_name, last_name, gender, age) {
 
 var emp = new employee("mohit", 'anand', "male", 10);
 emp.fun();
-console.log(emp);
+// console.log(emp);
 
 function admin(salary){
 
@@ -27,11 +27,11 @@ mech.fun = emp.fun ;
 // since undefined  + 1 gives NaN.
 mech.fun();
 
-console.log('---------');
-console.log(mech);
+// console.log('---------');
+// console.log(mech);
 
 var x = new employee("as", "ds", "fem", 123);
-console.log(x);
+// console.log(x);
 
 
 // we can use `call` function which specifies the context in which

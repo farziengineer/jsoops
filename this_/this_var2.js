@@ -18,5 +18,5 @@ var Con = function() {
 Con();
 
 console.log(poor);
-console.log(func());
+func();
 
