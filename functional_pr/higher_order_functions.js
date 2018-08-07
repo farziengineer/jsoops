@@ -28,3 +28,8 @@ var res2 = filterx(arr, function(num){
 });
 console.log(res2);
 
+
+// another built-in way to do this would be
+console.log(arr.filter(function(num){
+	return num%2 === 0;
+}));
