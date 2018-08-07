@@ -17,7 +17,7 @@ function gener(factor){
 var metre_to_centi = gener(100);
 console.log(metre_to_centi(12));
 
-var kg_to_gram = genr(1000);
+var kg_to_gram = gener(1000);
 console.log(kg_to_gram(98));
 
 // we can create separate functions for these
