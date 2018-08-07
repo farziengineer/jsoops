@@ -1,3 +1,6 @@
+// currying is possible
+// because of closure of javascript
+
 function x(arg1){
 
 	function y(arg2){
