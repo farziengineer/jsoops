@@ -35,5 +35,10 @@ var x = arr.map(function(num){
 
 console.log(x);
 
-// ES6
+// ES6, 
 var x = arr.map((num) => (num * 10));
+console.log(x);
+
+// chaining is used here
+var y = arr.map((num) => (num * 10)).filter((num) => (num % 3 === 0));
+console.log(y);
